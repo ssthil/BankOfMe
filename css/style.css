@@ -1,0 +1,100 @@
+.navbar.top-header {
+	background: #f3f3f4;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+    z-index: 999;
+}
+.navbar.top-header a{
+	color: #777;
+}
+.main-manu {
+    background-color: #4199EA;
+}
+.main-manu div.col-xs-2{
+    border-right: 1px solid #fff;
+    height: 70px;
+}
+.main-manu a{
+padding: 15px 0;
+display: block;
+text-decoration: none;
+}
+.main-manu div.col-xs-2:last-child {
+border-right: 0px solid #fff;
+}
+
+.main-manu a i, a > span{
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+}
+#banner{
+	background-image: url('../images/bank_of_me_assets/bank-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 540px;
+}
+#chat{
+	padding-top: 50px;
+}
+.fade-bg-container {
+    background:rgba(0,0,0,0.1);
+    padding: 20px 0;
+    margin: 25px 0 50px 0;
+    text-align: center;
+    color: #fff;
+}
+.fade-bg-container h3{
+ 	padding-bottom: 30px;  
+}
+.align-right{
+	text-align: right;
+}
+.pull-center{
+	text-align: center;
+}
+.inline-blk{
+	display: inline-block;
+}
+.chat{
+	padding: 4px 8px 4px 8px;
+    float: right;
+    color: #fff;
+}
+.fa-video-camera{
+	padding-right: 8px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #E85791;
+    float: left;
+    margin-right: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #E85791;
+}
+
+ .chat-msg {
+    display: inline-block;
+    float: left;
+    width: 91%;
+    padding-left: 16px;
+}
+ 
+.chat-time{
+	font-size: 11px;
+	color: #888;
+}
+@media (max-width: 691px) {
+  	#banner .align-right, .align-left {
+		text-align: center;
+	}
+	.navbar-brand>img {
+    width: 48px;
+  }
+}
